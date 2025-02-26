@@ -14,6 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
              <html lang="en">
+              <head>
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880385119289443"
+     crossorigin="anonymous"></script>
+              </head>
       <body className={inter.className}>
         <Toaster/>
         {children}</body>
