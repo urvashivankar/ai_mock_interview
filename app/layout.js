@@ -17,6 +17,23 @@ export default function RootLayout({ children }) {
               <head>
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8880385119289443"
      crossorigin="anonymous"></script>
+            {/* Google Analytics Script */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-EX6CJQSZY"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EX6CJQSZY4');
+          `}
+        </Script>
               </head>
       <body className={inter.className}>
         <Toaster/>
