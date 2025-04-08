@@ -21,11 +21,11 @@ export default function RootLayout({ children }) {
             crossorigin="anonymous"
           ></script>
           {/* Google Analytics Script */}
-          <Script
+          <script
             strategy="afterInteractive"
             src="https://www.googletagmanager.com/gtag/js?id=G-EX6CJQSZY"
           />
-          <Script id="google-analytics" strategy="afterInteractive">
+          <script id="google-analytics" strategy="afterInteractive">
             {`
             window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
   gtag('config', 'G-EX6CJQSZY4');
           `}
-          </Script>
+          </script>
         </head>
         <body className={inter.className}>
           <Toaster />
