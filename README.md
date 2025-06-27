@@ -82,13 +82,11 @@ Contributions are welcome! If you’d like to improve features, fix bugs, or enh
 2. Create a new branch
 3. Submit a Pull Request (PR)
 
-Please follow the coding and PR guidelines listed in [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
 
 ## 🔗 Connect With Us
 
-- 🌐 Website: [your-website-link]
-- 📬 Email: [your-email@example.com]
+- 🌐 Website: [ai-interview-mocker-two.vercel.app/]
+- 📬 Email: [sharunattari266@gmail.com]
 - 🧠 Built with ❤️ using LangChain + Google Gemini APIs
 
 ---
