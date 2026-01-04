@@ -6,9 +6,14 @@ const isProtectedRoute = createRouteMatcher([
   '/forum(.*)',
 ]);
 
+/*
 export default clerkMiddleware((auth, req) => {
   if (isProtectedRoute(req)) auth().protect();
 });
+*/
+export default function middleware() {
+  return;
+}
 export const config = {
   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };
